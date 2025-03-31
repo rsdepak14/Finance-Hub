@@ -1,0 +1,5 @@
+Project Abstract: 52-Week High/Low Breakout Strategy vs. Buy-and-Hold
+
+This project investigates the effectiveness of a 52-week high/low breakout trading strategy compared to a traditional buy-and-hold investment approach. The analysis is applied across three portfolios: the Dow Jones Industrial Average (DJIA) ETF (ticker: DIA), an equal-weighted breakout strategy across DJIA constituent stocks, and a simple buy-and-hold strategy of DIA. The breakout strategy triggers long positions when prices hit a 52-week high accompanied by surging volume, and short positions when prices hit a 52-week low under similar volume conditions, with clear exit rules.
+
+The project involves implementing and backtesting this strategy in Python, leveraging historical price and volume data, and incorporating Fama-French factors for risk-adjusted performance metrics. It evaluates performance based on metrics like Sharpe Ratio, total returns, and drawdowns, while also comparing trade frequencies, signal reliability, and risk-reward tradeoffs. Ultimately, the analysis aims to explain strategy performance differences and recommend the most effective investment approach among the three.
